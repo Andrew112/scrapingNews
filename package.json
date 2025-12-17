@@ -2,9 +2,13 @@
   "name": "scapingnews",
   "version": "1.0.0",
   "description": "a web app that lets users leave comments on the latest news.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
